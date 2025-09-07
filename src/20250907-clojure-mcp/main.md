@@ -22,6 +22,10 @@ title: 20250907-clojure-mcp.deck
 - GitHub: conao3
 - X(Twitter): conao_3
 
+- 発表資料
+  - [GitHub: conao3/deck-src/src/20250907-clojure-mcp](https://github.com/conao3/deck-src/tree/master/src/20250907-clojure-mcp)
+  - [Google Slide](https://docs.google.com/presentation/d/1JWgLdXnexIhB6nQtdlwnlwmmy_6HsrbYOL5-UnfO9CE/edit?usp=sharing)
+
 ---
 
 <!-- {"layout": "title-and-body"} -->
