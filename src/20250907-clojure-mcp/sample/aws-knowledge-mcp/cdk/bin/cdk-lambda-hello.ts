@@ -4,4 +4,11 @@ import * as cdk from "aws-cdk-lib";
 import { CdkLambdaHelloStack } from "../lib/cdk-lambda-hello-stack";
 
 const app = new cdk.App();
-new CdkLambdaHelloStack(app, "CdkLambdaHelloStack");
+
+const environment = "dev";
+const project = "mcptest";
+
+new CdkLambdaHelloStack(app, `${environment}-${project}-stack`, {
+  environment,
+  project,
+});
