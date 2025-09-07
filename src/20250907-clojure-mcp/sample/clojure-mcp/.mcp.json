@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "clojure-mcp": {
+      "type": "stdio",
+      "command": "clojure",
+      "args": [
+        "-X:mcp",
+        ":port",
+        "16234",
+        ":project-dir",
+        "."
+      ],
+      "env": {}
+    }
+  }
+}
