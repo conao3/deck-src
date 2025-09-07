@@ -9,7 +9,7 @@ title: 20250907-clojure-mcp.deck
 
 - conao3 / Toyokumo, Inc.
 - 2025/07/10
-- AIコーディング共有会
+- AIコーディング共有会 @ Toyokumo
 
 ---
 
