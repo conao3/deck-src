@@ -16,12 +16,12 @@ test:
 
 .PHONY: synth
 synth:
-	pnpm exec cdk synth
+	cdk synth
 
 .PHONY: deploy
 deploy:
-	pnpm exec cdk deploy
+	cdk deploy
 
 .PHONY: destroy
 destroy:
-	pnpm exec cdk destroy
+	cdk destroy
