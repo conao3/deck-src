@@ -19,3 +19,7 @@ title-and-body-2col
 section-title-and-body
 takahashi
 ```
+
+## License
+
+CC0
