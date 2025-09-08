@@ -122,6 +122,7 @@ Claude開発企業のAnthropicにより、2024/11に発表。急速にAI分野�
    - `clj -M:dev:repl --port 16234` など
 
 2. グローバルのdeps.ednにclojure-mcpの設定を入れる
+   `~/.config/clojure/deps.edn` もしくは `~/.clojure/deps.edn`
    ```
    {:aliases
     {;; clj -X:mcp :port 39541
