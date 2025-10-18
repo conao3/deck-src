@@ -1,0 +1,13 @@
+#+title: magit-worktree / ox-deckについて
+#+author: conao3
+
+* magit-worktree / ox-deckについて
+- conao3 / Toyokumo, Inc.
+- yyyy/mm/dd
+- 東京Emacs勉強会 @ Pixiv
+
+* magit
+- Emacsのキラーツール
+
+* magit-worktree
+- magitにおけるworktreeのインターフェース
