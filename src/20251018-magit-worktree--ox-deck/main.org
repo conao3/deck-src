@@ -1,5 +1,13 @@
 #+title: magit-worktree / ox-deckについて
 #+author: conao3
+#+options: toc:nil ^:nil
+
+#+begin_export markdown
+---
+presentationID: 157UGFpw2XyIpBi13hSUQ5xIhx0OfMnlaHF9Kma6D6zQ
+title: 20251018-magit-worktree--ox-deck.deck
+---
+#+end_export
 
 * magit-worktree / ox-deckについて
 - conao3 / Toyokumo, Inc.
