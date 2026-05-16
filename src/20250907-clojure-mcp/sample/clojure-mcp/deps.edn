@@ -12,4 +12,4 @@
          :main-opts ["-m" "nrepl.cmdline"
                      "--interactive"
                      "--middleware" "[cider.nrepl/cider-middleware]"]}
-  :test {:main-opts ["-e" "(require 'dev)" "-m" "kaocha.runner"]}}}
+  :test {:main-opts ["-e" "(require 'user)" "-m" "kaocha.runner"]}}}
