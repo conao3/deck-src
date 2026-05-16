@@ -1,0 +1,40 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+jobs:
+  clojure-mcp-sample:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: src/20250907-clojure-mcp/sample/clojure-mcp
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - uses: DeLaGuardo/setup-clojure@v13
+        with:
+          cli: latest
+          clj-kondo: latest
+
+      - uses: actions/cache@v4
+        with:
+          path: |
+            ~/.m2/repository
+            ~/.gitlibs
+            src/20250907-clojure-mcp/sample/clojure-mcp/.cpcache
+          key: ${{ runner.os }}-clojure-${{ hashFiles('src/20250907-clojure-mcp/sample/clojure-mcp/deps.edn') }}
+          restore-keys: ${{ runner.os }}-clojure-
+
+      - name: Lint
+        run: make lint
+
+      - name: Test
+        run: make test
