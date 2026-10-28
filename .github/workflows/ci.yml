@@ -12,19 +12,19 @@ jobs:
       run:
         working-directory: src/20250907-clojure-mcp/sample/clojure-mcp
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-java@v4
+      - uses: actions/setup-java@v6
         with:
           distribution: temurin
-          java-version: '21'
+          java-version: '25'
 
       - uses: DeLaGuardo/setup-clojure@13
         with:
           cli: latest
           clj-kondo: latest
 
-      - uses: actions/cache@v4
+      - uses: actions/cache@v6
         with:
           path: |
             ~/.m2/repository
