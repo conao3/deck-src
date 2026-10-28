@@ -15,7 +15,7 @@ export class Stack extends cdk.Stack {
 
     const helloLambda = new lambda.Function(this, "HelloLambda", {
       functionName: `${prefix}-hello-lambda`,
-      runtime: lambda.Runtime.PYTHON_3_12,
+      runtime: lambda.Runtime.PYTHON_3_14,
       handler: "handler.lambda_handler",
       code: lambda.Code.fromAsset("../lambda"),
     });
