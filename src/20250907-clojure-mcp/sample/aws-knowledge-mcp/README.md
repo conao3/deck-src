@@ -11,7 +11,7 @@ $ pnpm -C cdk i
 ## Deploy
 
 ```
-$ pnpm -C cdk exec cdk deploy --require-approval=never --profile conao3.sandbox 
+$ pnpm -C cdk exec cdk deploy --require-approval=never --profile conao3.sandbox
 ```
 
 ## Tips

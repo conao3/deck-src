@@ -18,16 +18,16 @@
       perSystem = { config, pkgs, ... }: {
         packages.default = pkgs.buildGoModule rec {
           pname = "deck";
-          version = "1.21.3";
+          version = "1.24.4";
 
           src = pkgs.fetchFromGitHub {
             owner = "k1LoW";
             repo = "deck";
             rev = "v${version}";
-            sha256 = "sha256-HsEOZ96E6geak1rnEypLO1J1MGS0JHyFdlCZBsY9QJU=";
+            sha256 = "sha256-lTBanbAb0klUrqhvhyht4u+K006YgiXya2ovg/ElrL4=";
           };
 
-          vendorHash = "sha256-Ik3wwjKgxiHhWRpMjUgb8A1u763NJ3JeYo3A7Yo8Y4o=";
+          vendorHash = "sha256-06OqWG5Mn7avaTDL5YJgcKjQ/JWTAB2Cqg/DMINGydo=";
           doCheck = false;
         };
 
