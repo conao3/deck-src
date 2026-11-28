@@ -1,4 +1,12 @@
-# deck-src
+<p align="center"><img src="docs/assets/banner.png" alt="deck-src: Markdown source files for Google Slides presentations, built with the deck CLI" width="880"></p>
+
+<p align="center"><strong>Markdown source files for Google Slides presentations, built with the deck CLI</strong></p>
+
+<p align="center"><a href="https://github.com/conao3/deck-src/actions/workflows/ci.yml"><img src="https://github.com/conao3/deck-src/actions/workflows/ci.yml/badge.svg?branch=master" alt="CI"></a> <a href="LICENSE"><img src="https://img.shields.io/github/license/conao3/deck-src" alt="License"></a> <a href="https://github.com/conao3/deck-src/stargazers"><img src="https://img.shields.io/github/stars/conao3/deck-src?style=flat" alt="GitHub stars"></a></p>
+
+<p align="center"><a href="#getting-started">Getting Started</a> | <a href="#available-layouts">Available Layouts</a> | <a href="#license">License</a></p>
+
+<h1>deck-src</h1>
 
 Source files for presentations managed with [deck](https://github.com/conao3/deck), a CLI tool for creating Google Slides from Markdown.
 
